@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3DC9B6D25422D5F00673591 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC9B6C25422D5F00673591 /* main.swift */; };
+		C3DC9B7525423C9900673591 /* DataReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC9B7425423C9900673591 /* DataReadable.swift */; };
+		C3DC9B7825423CA900673591 /* DataReadable+NumericDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC9B7725423CA900673591 /* DataReadable+NumericDecoding.swift */; };
+		C3DC9B7C2542415500673591 /* Data+ZlibDecompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC9B7B2542415500673591 /* Data+ZlibDecompression.swift */; };
+		C3DC9B812542480800673591 /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = C3DC9B802542480800673591 /* XMLCoder */; };
+		C3DC9B8425424BD600673591 /* XARFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC9B8325424BD600673591 /* XARFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3DC9B6725422D5F00673591 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3DC9B6925422D5F00673591 /* xia-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "xia-2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DC9B6C25422D5F00673591 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C3DC9B7425423C9900673591 /* DataReadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReadable.swift; sourceTree = "<group>"; };
+		C3DC9B7725423CA900673591 /* DataReadable+NumericDecoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataReadable+NumericDecoding.swift"; sourceTree = "<group>"; };
+		C3DC9B7B2542415500673591 /* Data+ZlibDecompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+ZlibDecompression.swift"; sourceTree = "<group>"; };
+		C3DC9B8325424BD600673591 /* XARFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XARFile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3DC9B6625422D5F00673591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DC9B812542480800673591 /* XMLCoder in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3DC9B6025422D5F00673591 = {
+			isa = PBXGroup;
+			children = (
+				C3DC9B6B25422D5F00673591 /* xia-2 */,
+				C3DC9B6A25422D5F00673591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3DC9B6A25422D5F00673591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3DC9B6925422D5F00673591 /* xia-2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3DC9B6B25422D5F00673591 /* xia-2 */ = {
+			isa = PBXGroup;
+			children = (
+				C3DC9B6C25422D5F00673591 /* main.swift */,
+				C3DC9B8325424BD600673591 /* XARFile.swift */,
+				C3DC9B7425423C9900673591 /* DataReadable.swift */,
+				C3DC9B7725423CA900673591 /* DataReadable+NumericDecoding.swift */,
+				C3DC9B7B2542415500673591 /* Data+ZlibDecompression.swift */,
+			);
+			path = "xia-2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3DC9B6825422D5F00673591 /* xia-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DC9B7025422D5F00673591 /* Build configuration list for PBXNativeTarget "xia-2" */;
+			buildPhases = (
+				C3DC9B6525422D5F00673591 /* Sources */,
+				C3DC9B6625422D5F00673591 /* Frameworks */,
+				C3DC9B6725422D5F00673591 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xia-2";
+			packageProductDependencies = (
+				C3DC9B802542480800673591 /* XMLCoder */,
+			);
+			productName = "xia-2";
+			productReference = C3DC9B6925422D5F00673591 /* xia-2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3DC9B6125422D5F00673591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C3DC9B6825422D5F00673591 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = C3DC9B6425422D5F00673591 /* Build configuration list for PBXProject "xia-2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3DC9B6025422D5F00673591;
+			packageReferences = (
+				C3DC9B7F2542480800673591 /* XCRemoteSwiftPackageReference "XMLCoder" */,
+			);
+			productRefGroup = C3DC9B6A25422D5F00673591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3DC9B6825422D5F00673591 /* xia-2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3DC9B6525422D5F00673591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DC9B6D25422D5F00673591 /* main.swift in Sources */,
+				C3DC9B7C2542415500673591 /* Data+ZlibDecompression.swift in Sources */,
+				C3DC9B7825423CA900673591 /* DataReadable+NumericDecoding.swift in Sources */,
+				C3DC9B7525423C9900673591 /* DataReadable.swift in Sources */,
+				C3DC9B8425424BD600673591 /* XARFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3DC9B6E25422D5F00673591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3DC9B6F25422D5F00673591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C3DC9B7125422D5F00673591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3DC9B7225422D5F00673591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3DC9B6425422D5F00673591 /* Build configuration list for PBXProject "xia-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DC9B6E25422D5F00673591 /* Debug */,
+				C3DC9B6F25422D5F00673591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DC9B7025422D5F00673591 /* Build configuration list for PBXNativeTarget "xia-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DC9B7125422D5F00673591 /* Debug */,
+				C3DC9B7225422D5F00673591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3DC9B7F2542480800673591 /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MaxDesiatov/XMLCoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.11.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3DC9B802542480800673591 /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3DC9B7F2542480800673591 /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C3DC9B6125422D5F00673591 /* Project object */;
+}
